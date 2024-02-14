@@ -1,6 +1,7 @@
 // src/components/Product.jsx
 
-export const Product = ({ name, imgUrl, price }) => {
+export const Product =
+  ({ name, imgUrl, price }) => {
   return (
     <div>
       <h2>{name}</h2>
